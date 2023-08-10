@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>05_表格</title>
+</head>
+<body>
+    <!-- 整体调节长宽高，单元格的间距cellspacing -->
+    <table border="2px" width="500" height="200" cellspacing="0" >
+        <!-- caotion 文字描述 -->
+        <caption><h2>学生信息表</h2></caption>
+        <!-- 头部信息 -->
+        <!-- 头部信息可以调节高度，对齐方式 -->
+        <thead  height="50" align="center" valign="middle">
+            <tr>
+                <!-- 单元格内可以调节对齐方式 -->
+                <th valign="bottom">姓名</th>
+                <th>年龄</th>
+                <th>性别</th>
+                <th>民族</th>
+                <th>政治面貌</th>
+            </tr>
+        </thead>
+        <tbody align="center">
+            <tr>
+                <td>倪辰</td>
+                <td>12</td>
+                <td>男</td>
+                <td>汉族</td>
+                <td>团员</td>
+            <tr>
+                <td>爸爸</td>
+                <td>35</td>
+                <td>男</td>
+                <td>汉族</td>
+                <td>吃瓜群众</td>
+            </tr>
+            <tr>
+                <td>妈妈</td>
+                <td>35</td>
+                <td>女</td>
+                <td>壮族</td>
+                <td>吃瓜群众</td>
+            </tr>
+        </tbody>
+        <tfoot height="30" align="center">
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>合计：三人</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

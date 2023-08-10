@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>块级元素与行内元素</title>
+    </head>
+    <body>
+        <!-- 块级元素，特点：独占一行 -->
+        <!-- <h1>一级标签</h1>
+        <h1>一级标签</h1>
+        <p>段落标签</p>
+        <p>段落标签</p>
+        <div>块标签无意义</div>
+        <div>块标签无意义</div> -->
+
+        <!-- 行内元素，特点：不独占一行 -->
+        <!-- <input type="text">
+        <input type="text"> -->
+        
+        <!-- 规则1：块级元素中能写行内元素、块级元素（几乎都能写） -->
+        <div>
+            <span>行内元素</span>
+            <input type="text">
+            <div>内嵌块级元素</div>
+        </div>
+
+         <!-- 规则2：行内元素中能写行内元素，不能写块级元素 -->
+         <span>
+            <span>行内元素</span>
+            <input type="text">
+            <span>第二个行内元素</span>
+         </span>
+    </body>
+</html>
